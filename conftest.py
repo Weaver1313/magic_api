@@ -8,7 +8,7 @@ def create_chellenger():
     return CreateChallenger()
 
 @pytest.fixture()
-def get_all_chellenger():
+def get_all_challenger():
     return GetCallenges()
 
 @pytest.fixture()
